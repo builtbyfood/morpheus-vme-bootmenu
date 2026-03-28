@@ -1,4 +1,4 @@
-# VME Boot Menu Toggle
+# Morpheus and VME/HVM Boot Menu Toggle
 
 Enable or disable the **BIOS boot menu** on HPE VM Essentials (VME) / KVM virtual machines. No VM shutdown required — the change takes effect on the next start.
 
@@ -11,8 +11,8 @@ This repo provides three ways to use these tools. Pick the one that matches your
 | Method | I have... | Skill level |
 |--------|-----------|-------------|
 | [**Option A — Standalone Shell**](#option-a--standalone-shell-scripts) | Direct SSH or console access to a VME host | Any |
-| [**Option B — Morpheus Agent Task**](#option-b--morpheus-agent-tasks) | Morpheus + Morpheus Agent installed on VME hosts | Intermediate |
-| [**Option C — Morpheus Appliance Task**](#option-c--morpheus-appliance-tasks-python) | Morpheus (no agent required on hosts) | Intermediate |
+| [**Option B — Morpheus Agent Task**](#option-b--morpheus-agent-tasks) | HPE VM Essentials + Morpheus Agent installed on VME hosts | Intermediate |
+| [**Option C — Morpheus Appliance Task**](#option-c--morpheus-appliance-tasks-python) | Morpheus Enterprise (no agent required on hosts) | Intermediate |
 
 > **Not sure?** Start with Option A. It has zero dependencies and works anywhere.
 
